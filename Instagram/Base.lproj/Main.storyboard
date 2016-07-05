@@ -316,9 +316,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Instagram" translatesAutoresizingMaskIntoConstraints="NO" id="9t3-Nn-v6n">
-                                <rect key="frame" x="42" y="100" width="192" height="163"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6I2-OD-v5f">
                                 <rect key="frame" x="0.0" y="522" width="312" height="30"/>
                                 <state key="normal" title="SIGN UP with EMAIL IT'S FREE"/>
@@ -339,6 +336,9 @@
                                     <segue destination="JXu-zN-b91" kind="push" id="f9u-yx-AbV"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="New-Instragram-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="9t3-Nn-v6n">
+                                <rect key="frame" x="39" y="105" width="242" height="115"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -503,7 +503,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Instagram" width="16" height="16"/>
+        <image name="New-Instragram-Logo" width="482" height="136"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Fdf-P1-I0h"/>
